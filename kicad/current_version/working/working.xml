@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\GH\oomlout_oomp_electronic_usb_switch\kicad\current_version\working\working.kicad_sch</source>
-    <date>07/09/2023 22:38:17</date>
+    <date>07/09/2023 22:59:55</date>
     <tool>Eeschema 7.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -23,8 +23,115 @@
       </title_block>
     </sheet>
   </design>
-  <components/>
-  <libparts/>
+  <components>
+    <comp ref="J1">
+      <value>scuath</value>
+      <footprint>oomlout_oomp_part_footprints:scuath_electronic_socket_usb_a_through_hole</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_socket_usb_a_through_hole/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="scuath_electronic_socket_usb_a_through_hole" description="[electronic_socket_usb_a_through_hole](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_socket_usb_a_through_hole/working)&lt;br&gt;&lt;br&gt;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="[electronic_socket_usb_a_through_hole](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_socket_usb_a_through_hole/working)&lt;br&gt;&lt;br&gt;"/>
+      <property name="ki_keywords" value="connector USB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>adccc796-d683-4ae8-b13e-11aa6852d9f8</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>scumcsm</value>
+      <footprint>oomlout_oomp_part_footprints:scumcsm_electronic_socket_usb_micro_surface_mount</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_socket_usb_micro_surface_mount/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="scumcsm_electronic_socket_usb_micro_surface_mount" description="[electronic_socket_usb_micro_surface_mount](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_socket_usb_micro_surface_mount/working)&lt;br&gt;[LCSC - C319160&lt;br&gt;](https://lcsc.com/product-detail/C319160.html)&lt;br&gt;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="[electronic_socket_usb_micro_surface_mount](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_socket_usb_micro_surface_mount/working)&lt;br&gt;[LCSC - C319160&lt;br&gt;](https://lcsc.com/product-detail/C319160.html)&lt;br&gt;"/>
+      <property name="ki_keywords" value="connector USB micro"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>023f7d7f-736c-4cc0-a9db-421362c1adc0</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>scumcsm</value>
+      <footprint>oomlout_oomp_part_footprints:scumcsm_electronic_socket_usb_micro_surface_mount</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_socket_usb_micro_surface_mount/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="scumcsm_electronic_socket_usb_micro_surface_mount" description="[electronic_socket_usb_micro_surface_mount](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_socket_usb_micro_surface_mount/working)&lt;br&gt;[LCSC - C319160&lt;br&gt;](https://lcsc.com/product-detail/C319160.html)&lt;br&gt;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="[electronic_socket_usb_micro_surface_mount](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_socket_usb_micro_surface_mount/working)&lt;br&gt;[LCSC - C319160&lt;br&gt;](https://lcsc.com/product-detail/C319160.html)&lt;br&gt;"/>
+      <property name="ki_keywords" value="connector USB micro"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b165c74d-9484-4eea-8f70-b3bbd3a666de</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="oomlout_oomp_part_symbols" part="scuath_electronic_socket_usb_a_through_hole">
+      <description>[electronic_socket_usb_a_through_hole](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_socket_usb_a_through_hole/working)&lt;br&gt;&lt;br&gt;</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_socket_usb_a_through_hole/datasheet.pdf</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">scuath_electronic_socket_usb_a_through_hole</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:scuath_electronic_socket_usb_a_through_hole</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_socket_usb_a_through_hole/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="oomlout_oomp_part_symbols" part="scumcsm_electronic_socket_usb_micro_surface_mount">
+      <description>[electronic_socket_usb_micro_surface_mount](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_socket_usb_micro_surface_mount/working)&lt;br&gt;[LCSC - C319160&lt;br&gt;](https://lcsc.com/product-detail/C319160.html)&lt;br&gt;</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_socket_usb_micro_surface_mount/datasheet.pdf</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">scumcsm_electronic_socket_usb_micro_surface_mount</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:scumcsm_electronic_socket_usb_micro_surface_mount</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_socket_usb_micro_surface_mount/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
   <libraries/>
-  <nets/>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="J1" pin="1" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="J2" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="J3" pin="1" pinfunction="VBUS" pintype="power_out"/>
+    </net>
+    <net code="2" name="/usb_id">
+      <node ref="J2" pin="4" pinfunction="ID" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="ID" pintype="passive"/>
+    </net>
+    <net code="3" name="/usb_negative">
+      <node ref="J1" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J2" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J3" pin="2" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/usb_plus">
+      <node ref="J1" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J2" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J3" pin="3" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="J1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="5" pinfunction="Shield" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J2" pin="6" pinfunction="Shield" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J3" pin="6" pinfunction="Shield" pintype="passive"/>
+    </net>
+  </nets>
 </export>
