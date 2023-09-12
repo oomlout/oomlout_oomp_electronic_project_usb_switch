@@ -1,0 +1,295 @@
+bom:
+- Id: '1'
+  Designator: J1
+  Footprint: scuath_electronic_socket_usb_a_through_hole
+  Quantity: '1'
+  Designation: scuath
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
+  Designator: H7,H3,H4,H6
+  Footprint: mhm3_electronic_mounting_hole_m3
+  Quantity: '4'
+  Designation: mhm3
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '3'
+  Designator: C1
+  Footprint: c6nf100_electronic_capacitor_0603_100_nano_farad
+  Quantity: '1'
+  Designation: c6nf100
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
+  Designator: U1
+  Footprint: imsp10mpump21rs2227_electronic_ic_msop_10_multiplexer_usb_multiplexer_two_to_one_jiangsu_runic_tech_rs2227xn
+  Quantity: '1'
+  Designation: imsp10mpump21rs2227
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '5'
+  Designator: H1,H5,H8
+  Footprint: mhm6_electronic_mounting_hole_m6
+  Quantity: '3'
+  Designation: mhm6
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '6'
+  Designator: R1,R2
+  Footprint: r6o103_electronic_resistor_0603_10000_ohm
+  Quantity: '2'
+  Designation: r6o103
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '7'
+  Designator: J4
+  Footprint: kicad_connector_pinheader_2_54mm_pinheader_1x03_p2_54mm_vertical
+  Quantity: '1'
+  Designation: swsi1h
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '8'
+  Designator: J2,J3
+  Footprint: scumcsm_electronic_socket_usb_micro_surface_mount
+  Quantity: '2'
+  Designation: scumcsm
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
+  Designator: J5
+  Footprint: sws2880_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw
+  Quantity: '1'
+  Designation: sws2880
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J1\
+  \ | scuath_electronic_socket_usb_a_through_hole | 1 | scuath |  |  | [''] | \n|\
+  \ 2 | H7,H3,H4,H6 | mhm3_electronic_mounting_hole_m3 | 4 | mhm3 |  |  | [''] | \n\
+  | 3 | C1 | c6nf100_electronic_capacitor_0603_100_nano_farad | 1 | c6nf100 |  | \
+  \ | [''] | \n| 4 | U1 | imsp10mpump21rs2227_electronic_ic_msop_10_multiplexer_usb_multiplexer_two_to_one_jiangsu_runic_tech_rs2227xn\
+  \ | 1 | imsp10mpump21rs2227 |  |  | [''] | \n| 5 | H1,H5,H8 | mhm6_electronic_mounting_hole_m6\
+  \ | 3 | mhm6 |  |  | [''] | \n| 6 | R1,R2 | r6o103_electronic_resistor_0603_10000_ohm\
+  \ | 2 | r6o103 |  |  | [''] | \n| 7 | J4 | kicad_connector_pinheader_2_54mm_pinheader_1x03_p2_54mm_vertical\
+  \ | 1 | swsi1h |  |  | [''] | \n| 8 | J2,J3 | scumcsm_electronic_socket_usb_micro_surface_mount\
+  \ | 2 | scumcsm |  |  | [''] | \n| 9 | J5 | sws2880_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw\
+  \ | 1 | sws2880 |  |  | [''] | \n"
+bom_schematic:
+- Cmp name: c6nf100_electronic_capacitor_0603_100_nano_farad
+  DNP: ''
+  Description: '[electronic_capacitor_0603_100_nano_farad](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_capacitor_0603_100_nano_farad/working)<br>[LCSC
+    - C14663<br>](https://lcsc.com/product-detail/C14663.html)[LCSC - C30926<br>](https://lcsc.com/product-detail/C30926.html)<br>[Samsung
+    - CL10B104KB8NNNC](https://product.samsungsem.com/mlcc/CL10B104KB8NNN.do)[Yageo
+    - CC0603KRX7R9BB104](https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R9BB104)'
+  Footprint: oomlout_oomp_part_footprints:c6nf100_electronic_capacitor_0603_100_nano_farad
+  Qnty: '1'
+  Ref: C1
+  Value: c6nf100
+  Vendor: ''
+- Cmp name: mhm6_electronic_mounting_hole_m6
+  DNP: ''
+  Description: '[electronic_mounting_hole_m6](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_mounting_hole_m6/working)<br><br>'
+  Footprint: oomlout_oomp_part_footprints:mhm6_electronic_mounting_hole_m6
+  Qnty: '3'
+  Ref: H1, H5, H8
+  Value: mhm6
+  Vendor: ''
+- Cmp name: mhm3_electronic_mounting_hole_m3
+  DNP: ''
+  Description: '[electronic_mounting_hole_m3](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_mounting_hole_m3/working)<br><br>'
+  Footprint: oomlout_oomp_part_footprints:mhm3_electronic_mounting_hole_m3
+  Qnty: '4'
+  Ref: H3, H4, H6, H7
+  Value: mhm3
+  Vendor: ''
+- Cmp name: scuath_electronic_socket_usb_a_through_hole
+  DNP: ''
+  Description: '[electronic_socket_usb_a_through_hole](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_socket_usb_a_through_hole/working)<br><br>'
+  Footprint: oomlout_oomp_part_footprints:scuath_electronic_socket_usb_a_through_hole
+  Qnty: '1'
+  Ref: J1
+  Value: scuath
+  Vendor: ''
+- Cmp name: scumcsm_electronic_socket_usb_micro_surface_mount
+  DNP: ''
+  Description: '[electronic_socket_usb_micro_surface_mount](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_socket_usb_micro_surface_mount/working)<br>[LCSC
+    - C319160<br>](https://lcsc.com/product-detail/C319160.html)<br>'
+  Footprint: oomlout_oomp_part_footprints:scumcsm_electronic_socket_usb_micro_surface_mount
+  Qnty: '2'
+  Ref: J2, J3
+  Value: scumcsm
+  Vendor: ''
+- Cmp name: swsi1h_electronic_switch_slide_2d54_header_single_pole_double_throw
+  DNP: ''
+  Description: '[electronic_switch_slide_2d54_header_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2d54_header_single_pole_double_throw/working)<br><br>'
+  Footprint: oomlout_oomp_part_footprints:swsi1h_electronic_switch_slide_2d54_header_single_pole_double_throw
+  Qnty: '1'
+  Ref: J4
+  Value: swsi1h
+  Vendor: ''
+- Cmp name: sws2880_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw
+  DNP: ''
+  Description: '[electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw/working)<br><br>'
+  Footprint: oomlout_oomp_part_footprints:sws2880_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw
+  Qnty: '1'
+  Ref: J5
+  Value: sws2880
+  Vendor: ''
+- Cmp name: r6o103_electronic_resistor_0603_10000_ohm
+  DNP: ''
+  Description: '[electronic_resistor_0603_10000_ohm](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_resistor_0603_10000_ohm/working)<br>[LCSC
+    - C25804<br>](https://lcsc.com/product-detail/C25804.html)[LCSC - C15401<br>](https://lcsc.com/product-detail/C15401.html)[LCSC
+    - C99198<br>](https://lcsc.com/product-detail/C99198.html)<br>[Uniroyal - 0603WAJ0103T5E-
+    not in jlc basic parts]()[Uniroyal - 0603WAF1002T5E- jlc basic part]()[Yageo -
+    RC0603JR-0710KL- available everywhere](https://www.yageo.com/en/Chart/Download/pdf/RC0603JR-0710KL)'
+  Footprint: oomlout_oomp_part_footprints:r6o103_electronic_resistor_0603_10000_ohm
+  Qnty: '2'
+  Ref: R1, R2
+  Value: r6o103
+  Vendor: ''
+- Cmp name: imsp10mpump21rs2227_electronic_ic_msop_10_multiplexer_usb_multiplexer_two_to_one_jiangsu_runic_tech_rs2227xn
+  DNP: ''
+  Description: '[electronic_ic_msop_10_multiplexer_usb_multiplexer_two_to_one_jiangsu_runic_tech_rs2227xn](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_ic_msop_10_multiplexer_usb_multiplexer_two_to_one_jiangsu_runic_tech_rs2227xn/working)<br>[LCSC
+    - C255478<br>](https://lcsc.com/product-detail/C255478.html)<br>'
+  Footprint: oomlout_oomp_part_footprints:imsp10mpump21rs2227_electronic_ic_msop_10_multiplexer_usb_multiplexer_two_to_one_jiangsu_runic_tech_rs2227xn
+  Qnty: '1'
+  Ref: U1
+  Value: imsp10mpump21rs2227
+  Vendor: ''
+bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
+  \ 1 | c6nf100 | c6nf100_electronic_capacitor_0603_100_nano_farad | oomlout_oomp_part_footprints:c6nf100_electronic_capacitor_0603_100_nano_farad\
+  \ | [electronic_capacitor_0603_100_nano_farad](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_capacitor_0603_100_nano_farad/working)<br>[LCSC\
+  \ - C14663<br>](https://lcsc.com/product-detail/C14663.html)[LCSC - C30926<br>](https://lcsc.com/product-detail/C30926.html)<br>[Samsung\
+  \ - CL10B104KB8NNNC](https://product.samsungsem.com/mlcc/CL10B104KB8NNN.do)[Yageo\
+  \ - CC0603KRX7R9BB104](https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R9BB104)\
+  \ |  |  | \n| H1, H5, H8 | 3 | mhm6 | mhm6_electronic_mounting_hole_m6 | oomlout_oomp_part_footprints:mhm6_electronic_mounting_hole_m6\
+  \ | [electronic_mounting_hole_m6](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_mounting_hole_m6/working)<br><br>\
+  \ |  |  | \n| H3, H4, H6, H7 | 4 | mhm3 | mhm3_electronic_mounting_hole_m3 | oomlout_oomp_part_footprints:mhm3_electronic_mounting_hole_m3\
+  \ | [electronic_mounting_hole_m3](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_mounting_hole_m3/working)<br><br>\
+  \ |  |  | \n| J1 | 1 | scuath | scuath_electronic_socket_usb_a_through_hole | oomlout_oomp_part_footprints:scuath_electronic_socket_usb_a_through_hole\
+  \ | [electronic_socket_usb_a_through_hole](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_socket_usb_a_through_hole/working)<br><br>\
+  \ |  |  | \n| J2, J3 | 2 | scumcsm | scumcsm_electronic_socket_usb_micro_surface_mount\
+  \ | oomlout_oomp_part_footprints:scumcsm_electronic_socket_usb_micro_surface_mount\
+  \ | [electronic_socket_usb_micro_surface_mount](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_socket_usb_micro_surface_mount/working)<br>[LCSC\
+  \ - C319160<br>](https://lcsc.com/product-detail/C319160.html)<br> |  |  | \n| J4\
+  \ | 1 | swsi1h | swsi1h_electronic_switch_slide_2d54_header_single_pole_double_throw\
+  \ | oomlout_oomp_part_footprints:swsi1h_electronic_switch_slide_2d54_header_single_pole_double_throw\
+  \ | [electronic_switch_slide_2d54_header_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2d54_header_single_pole_double_throw/working)<br><br>\
+  \ |  |  | \n| J5 | 1 | sws2880 | sws2880_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw\
+  \ | oomlout_oomp_part_footprints:sws2880_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw\
+  \ | [electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw/working)<br><br>\
+  \ |  |  | \n| R1, R2 | 2 | r6o103 | r6o103_electronic_resistor_0603_10000_ohm |\
+  \ oomlout_oomp_part_footprints:r6o103_electronic_resistor_0603_10000_ohm | [electronic_resistor_0603_10000_ohm](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_resistor_0603_10000_ohm/working)<br>[LCSC\
+  \ - C25804<br>](https://lcsc.com/product-detail/C25804.html)[LCSC - C15401<br>](https://lcsc.com/product-detail/C15401.html)[LCSC\
+  \ - C99198<br>](https://lcsc.com/product-detail/C99198.html)<br>[Uniroyal - 0603WAJ0103T5E-\
+  \ not in jlc basic parts]()[Uniroyal - 0603WAF1002T5E- jlc basic part]()[Yageo -\
+  \ RC0603JR-0710KL- available everywhere](https://www.yageo.com/en/Chart/Download/pdf/RC0603JR-0710KL)\
+  \ |  |  | \n| U1 | 1 | imsp10mpump21rs2227 | imsp10mpump21rs2227_electronic_ic_msop_10_multiplexer_usb_multiplexer_two_to_one_jiangsu_runic_tech_rs2227xn\
+  \ | oomlout_oomp_part_footprints:imsp10mpump21rs2227_electronic_ic_msop_10_multiplexer_usb_multiplexer_two_to_one_jiangsu_runic_tech_rs2227xn\
+  \ | [electronic_ic_msop_10_multiplexer_usb_multiplexer_two_to_one_jiangsu_runic_tech_rs2227xn](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_ic_msop_10_multiplexer_usb_multiplexer_two_to_one_jiangsu_runic_tech_rs2227xn/working)<br>[LCSC\
+  \ - C255478<br>](https://lcsc.com/product-detail/C255478.html)<br> |  |  | \n"
+position_bottom: []
+position_bottom_markdown: no data
+position_top:
+- '# Ref': C1
+  Package: c6nf100_electronic_capacitor_0603_100_nano_farad
+  PosX: 3.0
+  PosY: 1.725
+  Rot: -90.0
+  Side: top
+  Val: c6nf100
+- '# Ref': J1
+  Package: scuath_electronic_socket_usb_a_through_hole
+  PosX: 12.7
+  PosY: -5.73
+  Rot: 90.0
+  Side: top
+  Val: scuath
+- '# Ref': J2
+  Package: scumcsm_electronic_socket_usb_micro_surface_mount
+  PosX: -21.11
+  PosY: 3.175
+  Rot: -90.0
+  Side: top
+  Val: scumcsm
+- '# Ref': J3
+  Package: scumcsm_electronic_socket_usb_micro_surface_mount
+  PosX: -21.11
+  PosY: -11.825
+  Rot: -90.0
+  Side: top
+  Val: scumcsm
+- '# Ref': J4
+  Package: kicad_connector_pinheader_2_54mm_pinheader_1x03_p2_54mm_vertical
+  PosX: 0.5
+  PosY: -7.5
+  Rot: 90.0
+  Side: top
+  Val: swsi1h
+- '# Ref': J5
+  Package: sws2880_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw
+  PosX: -0.25
+  PosY: -19.93
+  Rot: 0.0
+  Side: top
+  Val: sws2880
+- '# Ref': R1
+  Package: r6o103_electronic_resistor_0603_10000_ohm
+  PosX: 2.0
+  PosY: -4.0
+  Rot: 0.0
+  Side: top
+  Val: r6o103
+- '# Ref': R2
+  Package: r6o103_electronic_resistor_0603_10000_ohm
+  PosX: 2.175
+  PosY: 4.5
+  Rot: 0.0
+  Side: top
+  Val: r6o103
+- '# Ref': U1
+  Package: imsp10mpump21rs2227_electronic_ic_msop_10_multiplexer_usb_multiplexer_two_to_one_jiangsu_runic_tech_rs2227xn
+  PosX: 0.0
+  PosY: 0.0
+  Rot: -90.0
+  Side: top
+  Val: imsp10mpump21rs2227
+position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
+  \ | --- | --- | --- | --- | --- | --- | \n| C1 | c6nf100 | c6nf100_electronic_capacitor_0603_100_nano_farad\
+  \ | 3.0 | 1.725 | -90.0 | top | \n| J1 | scuath | scuath_electronic_socket_usb_a_through_hole\
+  \ | 12.7 | -5.73 | 90.0 | top | \n| J2 | scumcsm | scumcsm_electronic_socket_usb_micro_surface_mount\
+  \ | -21.11 | 3.175 | -90.0 | top | \n| J3 | scumcsm | scumcsm_electronic_socket_usb_micro_surface_mount\
+  \ | -21.11 | -11.825 | -90.0 | top | \n| J4 | swsi1h | kicad_connector_pinheader_2_54mm_pinheader_1x03_p2_54mm_vertical\
+  \ | 0.5 | -7.5 | 90.0 | top | \n| J5 | sws2880 | sws2880_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw\
+  \ | -0.25 | -19.93 | 0.0 | top | \n| R1 | r6o103 | r6o103_electronic_resistor_0603_10000_ohm\
+  \ | 2.0 | -4.0 | 0.0 | top | \n| R2 | r6o103 | r6o103_electronic_resistor_0603_10000_ohm\
+  \ | 2.175 | 4.5 | 0.0 | top | \n| U1 | imsp10mpump21rs2227 | imsp10mpump21rs2227_electronic_ic_msop_10_multiplexer_usb_multiplexer_two_to_one_jiangsu_runic_tech_rs2227xn\
+  \ | 0.0 | 0.0 | -90.0 | top | \n"
