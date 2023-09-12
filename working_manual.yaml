@@ -1,0 +1,20 @@
+id: oomlout_oomp_electronic_project_usb_switch
+name: "Usb Switch Two to One"
+description: "A simple usb switch using a re22227 chip in oobb plate_03_03 format"
+module:
+  - id: connector_usb_micro_surface_mount
+    link: https://github.com/oomlout/oomlout_oomp_module_src/tree/main/modules/connector_usb_micro_surface_mount/working
+  - id: connector_usb_micro_surface_mount
+    link: https://github.com/oomlout/oomlout_oomp_module_src/tree/main/modules/connector_usb_micro_surface_mount/working
+  - id: connector_usb_a_through_hole
+    link: https://github.com/oomlout/oomlout_oomp_module_src/tree/main/modules/connector_usb_a_through_hole/working
+  - id: ic_usb_multiplexer_msop_10_two_to_one_rs2227xn
+    link: https://github.com/oomlout/oomlout_oomp_module_src/tree/main/modules/ic_usb_multiplexer_msop_10_two_to_one_rs2227xn/working
+  - id: logic_glue
+    link: https://github.com/oomlout/oomlout_oomp_module_src/tree/main/modules/logic_glue/working
+  - id: mechanical_board_shape_oobb_plate_03_03
+    link: https://github.com/oomlout/oomlout_oomp_module_src/tree/main/modules/mechanical_board_shape_oobb_plate_03_03/working
+  - id: switch_slide_single_pole_double_throw_2_8_mm_x_8_mm_x_1_4
+    link: https://github.com/oomlout/oomlout_oomp_module_src/tree/main/modules/switch_slide_single_pole_double_throw_2_8_mm_x_8_mm_x_1_4/working
+  - id: switch_slide_single_pole_double_throw_2d54_header
+    link: https://github.com/oomlout/oomlout_oomp_module_src/tree/main/modules/switch_slide_single_pole_double_throw_2d54_header/working
