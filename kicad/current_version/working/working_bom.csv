@@ -1,0 +1,10 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"J1";"scuath_electronic_socket_usb_a_through_hole";1;"scuath";;;
+2;"H7,H3,H4,H6";"mhm3_electronic_mounting_hole_m3";4;"mhm3";;;
+3;"C1";"c6nf100_electronic_capacitor_0603_100_nano_farad";1;"c6nf100";;;
+4;"U1";"imsp10mpump21rs2227_electronic_ic_msop_10_multiplexer_usb_multiplexer_two_to_one_jiangsu_runic_tech_rs2227xn";1;"imsp10mpump21rs2227";;;
+5;"H1,H5,H8";"mhm6_electronic_mounting_hole_m6";3;"mhm6";;;
+6;"R1,R2";"r6o103_electronic_resistor_0603_10000_ohm";2;"r6o103";;;
+7;"J4";"kicad_connector_pinheader_2_54mm_pinheader_1x03_p2_54mm_vertical";1;"swsi1h";;;
+8;"J2,J3";"scumcsm_electronic_socket_usb_micro_surface_mount";2;"scumcsm";;;
+9;"J5";"sws2880_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw";1;"sws2880";;;
