@@ -142,9 +142,17 @@ bom_schematic:
     - CL10B104KB8NNNC](https://product.samsungsem.com/mlcc/CL10B104KB8NNN.do)[Yageo
     - CC0603KRX7R9BB104](https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R9BB104)'
   Footprint: oomlout_oomp_part_footprints:c6nf100_electronic_capacitor_0603_100_nano_farad
-  Qnty: '1'
-  Ref: C1
+  Qnty: '2'
+  Ref: C1, C2
   Value: c6nf100
+  Vendor: ''
+- Cmp name: c8d65tuf220v10_electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt
+  DNP: ''
+  Description: '[electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt/working)<br><br>'
+  Footprint: oomlout_oomp_part_footprints:c8d65tuf220v10_electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt
+  Qnty: '1'
+  Ref: C3
+  Value: c8d65tuf220v10
   Vendor: ''
 - Cmp name: scumcsm_electronic_socket_usb_micro_surface_mount
   DNP: ''
@@ -188,6 +196,31 @@ bom_schematic:
   Ref: IC1
   Value: imsp10mpump21rs2227
   Vendor: ''
+- Cmp name: itssp8mpptps2113_electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw
+  DNP: ''
+  Description: '[electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw/working)<br>[LCSC
+    - C130052<br>](https://lcsc.com/product-detail/C130052.html)<br>'
+  Footprint: oomlout_oomp_part_footprints:itssp8mpptps2113_electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw
+  Qnty: '1'
+  Ref: IC2
+  Value: itssp8mpptps2113
+  Vendor: ''
+- Cmp name: sws2880s_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw
+  DNP: ''
+  Description: '[electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw/working)<br><br>'
+  Footprint: oomlout_oomp_part_footprints:sws2880s_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw
+  Qnty: '1'
+  Ref: J1
+  Value: sws2880s
+  Vendor: ''
+- Cmp name: swsi1hs_electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw
+  DNP: ''
+  Description: '[electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw/working)<br><br>'
+  Footprint: oomlout_oomp_part_footprints:swsi1hs_electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw
+  Qnty: '1'
+  Ref: J2
+  Value: swsi1hs
+  Vendor: ''
 - Cmp name: r6o103_electronic_resistor_0603_10000_ohm
   DNP: ''
   Description: '[electronic_resistor_0603_10000_ohm](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_resistor_0603_10000_ohm/working)<br>[LCSC
@@ -200,29 +233,26 @@ bom_schematic:
   Ref: R1, R2
   Value: r6o103
   Vendor: ''
-- Cmp name: sws2880_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw
+- Cmp name: r6o271_electronic_resistor_0603_270_ohm
   DNP: ''
-  Description: '[electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw/working)<br><br>'
-  Footprint: oomlout_oomp_part_footprints:sws2880_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw
+  Description: '[electronic_resistor_0603_270_ohm](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_resistor_0603_270_ohm/working)<br><br>[Uniroyal
+    - 0603WAJ0271T5E- not in jlc basic parts]()[Uniroyal - 0603WAF2700T5E- jlc basic
+    part]()[Yageo - RC0603JR-07270RL- available everywhere](https://www.yageo.com/en/Chart/Download/pdf/RC0603JR-07270RL)'
+  Footprint: oomlout_oomp_part_footprints:r6o271_electronic_resistor_0603_270_ohm
   Qnty: '1'
-  Ref: SW1
-  Value: sws2880
-  Vendor: ''
-- Cmp name: swsi1h_electronic_switch_slide_2d54_header_single_pole_double_throw
-  DNP: ''
-  Description: '[electronic_switch_slide_2d54_header_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2d54_header_single_pole_double_throw/working)<br><br>'
-  Footprint: oomlout_oomp_part_footprints:swsi1h_electronic_switch_slide_2d54_header_single_pole_double_throw
-  Qnty: '1'
-  Ref: SW2
-  Value: swsi1h
+  Ref: R3
+  Value: r6o271
   Vendor: ''
 bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Description\
-  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1 |\
-  \ 1 | c6nf100 | c6nf100_electronic_capacitor_0603_100_nano_farad | oomlout_oomp_part_footprints:c6nf100_electronic_capacitor_0603_100_nano_farad\
+  \ | Vendor | DNP | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| C1, C2\
+  \ | 2 | c6nf100 | c6nf100_electronic_capacitor_0603_100_nano_farad | oomlout_oomp_part_footprints:c6nf100_electronic_capacitor_0603_100_nano_farad\
   \ | [electronic_capacitor_0603_100_nano_farad](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_capacitor_0603_100_nano_farad/working)<br>[LCSC\
   \ - C14663<br>](https://lcsc.com/product-detail/C14663.html)[LCSC - C30926<br>](https://lcsc.com/product-detail/C30926.html)<br>[Samsung\
   \ - CL10B104KB8NNNC](https://product.samsungsem.com/mlcc/CL10B104KB8NNN.do)[Yageo\
   \ - CC0603KRX7R9BB104](https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R9BB104)\
+  \ |  |  | \n| C3 | 1 | c8d65tuf220v10 | c8d65tuf220v10_electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt\
+  \ | oomlout_oomp_part_footprints:c8d65tuf220v10_electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt\
+  \ | [electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt/working)<br><br>\
   \ |  |  | \n| CON1, CON2 | 2 | scumcsm | scumcsm_electronic_socket_usb_micro_surface_mount\
   \ | oomlout_oomp_part_footprints:scumcsm_electronic_socket_usb_micro_surface_mount\
   \ | [electronic_socket_usb_micro_surface_mount](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_socket_usb_micro_surface_mount/working)<br>[LCSC\
@@ -236,19 +266,27 @@ bom_schematic_markdown: "| Ref | Qnty | Value | Cmp name | Footprint | Descripti
   \ |  |  | \n| IC1 | 1 | imsp10mpump21rs2227 | imsp10mpump21rs2227_electronic_ic_msop_10_multiplexer_usb_multiplexer_two_to_one_jiangsu_runic_tech_rs2227xn\
   \ | oomlout_oomp_part_footprints:imsp10mpump21rs2227_electronic_ic_msop_10_multiplexer_usb_multiplexer_two_to_one_jiangsu_runic_tech_rs2227xn\
   \ | [electronic_ic_msop_10_multiplexer_usb_multiplexer_two_to_one_jiangsu_runic_tech_rs2227xn](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_ic_msop_10_multiplexer_usb_multiplexer_two_to_one_jiangsu_runic_tech_rs2227xn/working)<br>[LCSC\
-  \ - C255478<br>](https://lcsc.com/product-detail/C255478.html)<br> |  |  | \n| R1,\
-  \ R2 | 2 | r6o103 | r6o103_electronic_resistor_0603_10000_ohm | oomlout_oomp_part_footprints:r6o103_electronic_resistor_0603_10000_ohm\
-  \ | [electronic_resistor_0603_10000_ohm](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_resistor_0603_10000_ohm/working)<br>[LCSC\
+  \ - C255478<br>](https://lcsc.com/product-detail/C255478.html)<br> |  |  | \n| IC2\
+  \ | 1 | itssp8mpptps2113 | itssp8mpptps2113_electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw\
+  \ | oomlout_oomp_part_footprints:itssp8mpptps2113_electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw\
+  \ | [electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw/working)<br>[LCSC\
+  \ - C130052<br>](https://lcsc.com/product-detail/C130052.html)<br> |  |  | \n| J1\
+  \ | 1 | sws2880s | sws2880s_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw\
+  \ | oomlout_oomp_part_footprints:sws2880s_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw\
+  \ | [electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw/working)<br><br>\
+  \ |  |  | \n| J2 | 1 | swsi1hs | swsi1hs_electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw\
+  \ | oomlout_oomp_part_footprints:swsi1hs_electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw\
+  \ | [electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw/working)<br><br>\
+  \ |  |  | \n| R1, R2 | 2 | r6o103 | r6o103_electronic_resistor_0603_10000_ohm |\
+  \ oomlout_oomp_part_footprints:r6o103_electronic_resistor_0603_10000_ohm | [electronic_resistor_0603_10000_ohm](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_resistor_0603_10000_ohm/working)<br>[LCSC\
   \ - C25804<br>](https://lcsc.com/product-detail/C25804.html)[LCSC - C15401<br>](https://lcsc.com/product-detail/C15401.html)[LCSC\
   \ - C99198<br>](https://lcsc.com/product-detail/C99198.html)<br>[Uniroyal - 0603WAJ0103T5E-\
   \ not in jlc basic parts]()[Uniroyal - 0603WAF1002T5E- jlc basic part]()[Yageo -\
   \ RC0603JR-0710KL- available everywhere](https://www.yageo.com/en/Chart/Download/pdf/RC0603JR-0710KL)\
-  \ |  |  | \n| SW1 | 1 | sws2880 | sws2880_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw\
-  \ | oomlout_oomp_part_footprints:sws2880_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw\
-  \ | [electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw/working)<br><br>\
-  \ |  |  | \n| SW2 | 1 | swsi1h | swsi1h_electronic_switch_slide_2d54_header_single_pole_double_throw\
-  \ | oomlout_oomp_part_footprints:swsi1h_electronic_switch_slide_2d54_header_single_pole_double_throw\
-  \ | [electronic_switch_slide_2d54_header_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2d54_header_single_pole_double_throw/working)<br><br>\
+  \ |  |  | \n| R3 | 1 | r6o271 | r6o271_electronic_resistor_0603_270_ohm | oomlout_oomp_part_footprints:r6o271_electronic_resistor_0603_270_ohm\
+  \ | [electronic_resistor_0603_270_ohm](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_resistor_0603_270_ohm/working)<br><br>[Uniroyal\
+  \ - 0603WAJ0271T5E- not in jlc basic parts]()[Uniroyal - 0603WAF2700T5E- jlc basic\
+  \ part]()[Yageo - RC0603JR-07270RL- available everywhere](https://www.yageo.com/en/Chart/Download/pdf/RC0603JR-07270RL)\
   \ |  |  | \n"
 position_bottom: []
 position_bottom_markdown: no data

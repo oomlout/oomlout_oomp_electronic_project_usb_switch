@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\GH\oomlout_oomp_electronic_project_usb_switch\kicad\current_version\working\working.kicad_sch</source>
-    <date>13/09/2023 11:07:40</date>
+    <date>16/09/2023 15:45:39</date>
     <tool>Eeschema 7.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -35,6 +35,30 @@
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8285b946-1b2e-4ce9-8170-7229116539c8</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>c6nf100</value>
+      <footprint>oomlout_oomp_part_footprints:c6nf100_electronic_capacitor_0603_100_nano_farad</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_capacitor_0603_100_nano_farad/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="c6nf100_electronic_capacitor_0603_100_nano_farad" description="[electronic_capacitor_0603_100_nano_farad](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_capacitor_0603_100_nano_farad/working)&lt;br&gt;[LCSC - C14663&lt;br&gt;](https://lcsc.com/product-detail/C14663.html)[LCSC - C30926&lt;br&gt;](https://lcsc.com/product-detail/C30926.html)&lt;br&gt;[Samsung - CL10B104KB8NNNC](https://product.samsungsem.com/mlcc/CL10B104KB8NNN.do)[Yageo - CC0603KRX7R9BB104](https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R9BB104)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="[electronic_capacitor_0603_100_nano_farad](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_capacitor_0603_100_nano_farad/working)&lt;br&gt;[LCSC - C14663&lt;br&gt;](https://lcsc.com/product-detail/C14663.html)[LCSC - C30926&lt;br&gt;](https://lcsc.com/product-detail/C30926.html)&lt;br&gt;[Samsung - CL10B104KB8NNNC](https://product.samsungsem.com/mlcc/CL10B104KB8NNN.do)[Yageo - CC0603KRX7R9BB104](https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R9BB104)"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbab734a-453e-412e-ae64-34954c31e5ea</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>c8d65tuf220v10</value>
+      <footprint>oomlout_oomp_part_footprints:c8d65tuf220v10_electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="c8d65tuf220v10_electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt" description="[electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt/working)&lt;br&gt;&lt;br&gt;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="[electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt/working)&lt;br&gt;&lt;br&gt;"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>261ae9fe-4a1f-4720-92a0-ba8d05197336</tstamps>
     </comp>
     <comp ref="CON1">
       <value>scumcsm</value>
@@ -168,6 +192,42 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8c782f51-ff51-4133-809a-e3a48066e93a</tstamps>
     </comp>
+    <comp ref="IC2">
+      <value>itssp8mpptps2113</value>
+      <footprint>oomlout_oomp_part_footprints:itssp8mpptps2113_electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="itssp8mpptps2113_electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw" description="[electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw/working)&lt;br&gt;[LCSC - C130052&lt;br&gt;](https://lcsc.com/product-detail/C130052.html)&lt;br&gt;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="[electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw/working)&lt;br&gt;[LCSC - C130052&lt;br&gt;](https://lcsc.com/product-detail/C130052.html)&lt;br&gt;"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25d6ff61-5596-4c7a-8251-56f4bba98080</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>sws2880s</value>
+      <footprint>oomlout_oomp_part_footprints:sws2880s_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="sws2880s_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw" description="[electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw/working)&lt;br&gt;&lt;br&gt;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="[electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw/working)&lt;br&gt;&lt;br&gt;"/>
+      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>777d9447-3681-425e-a6a8-ecf3fc93b78a</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>swsi1hs</value>
+      <footprint>oomlout_oomp_part_footprints:swsi1hs_electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="swsi1hs_electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw" description="[electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw/working)&lt;br&gt;&lt;br&gt;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="[electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw/working)&lt;br&gt;&lt;br&gt;"/>
+      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93234ea0-8fb0-477e-9143-a043cf61e682</tstamps>
+    </comp>
     <comp ref="R1">
       <value>r6o103</value>
       <footprint>oomlout_oomp_part_footprints:r6o103_electronic_resistor_0603_10000_ohm</footprint>
@@ -192,29 +252,17 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>cd410da5-7201-491d-8c7b-08f724f7c0ea</tstamps>
     </comp>
-    <comp ref="SW1">
-      <value>sws2880</value>
-      <footprint>oomlout_oomp_part_footprints:sws2880_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw</footprint>
-      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw/datasheet.pdf</datasheet>
-      <libsource lib="oomlout_oomp_part_symbols" part="sws2880_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw" description="[electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw/working)&lt;br&gt;&lt;br&gt;"/>
+    <comp ref="R3">
+      <value>r6o271</value>
+      <footprint>oomlout_oomp_part_footprints:r6o271_electronic_resistor_0603_270_ohm</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_resistor_0603_270_ohm/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="r6o271_electronic_resistor_0603_270_ohm" description="[electronic_resistor_0603_270_ohm](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_resistor_0603_270_ohm/working)&lt;br&gt;&lt;br&gt;[Uniroyal - 0603WAJ0271T5E- not in jlc basic parts]()[Uniroyal - 0603WAF2700T5E- jlc basic part]()[Yageo - RC0603JR-07270RL- available everywhere](https://www.yageo.com/en/Chart/Download/pdf/RC0603JR-07270RL)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="working.kicad_sch"/>
-      <property name="ki_description" value="[electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw/working)&lt;br&gt;&lt;br&gt;"/>
-      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
+      <property name="ki_description" value="[electronic_resistor_0603_270_ohm](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_resistor_0603_270_ohm/working)&lt;br&gt;&lt;br&gt;[Uniroyal - 0603WAJ0271T5E- not in jlc basic parts]()[Uniroyal - 0603WAF2700T5E- jlc basic part]()[Yageo - RC0603JR-07270RL- available everywhere](https://www.yageo.com/en/Chart/Download/pdf/RC0603JR-07270RL)"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>f4ad70d8-78fb-4328-8061-548bc4052557</tstamps>
-    </comp>
-    <comp ref="SW2">
-      <value>swsi1h</value>
-      <footprint>oomlout_oomp_part_footprints:swsi1h_electronic_switch_slide_2d54_header_single_pole_double_throw</footprint>
-      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_switch_slide_2d54_header_single_pole_double_throw/datasheet.pdf</datasheet>
-      <libsource lib="oomlout_oomp_part_symbols" part="swsi1h_electronic_switch_slide_2d54_header_single_pole_double_throw" description="[electronic_switch_slide_2d54_header_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2d54_header_single_pole_double_throw/working)&lt;br&gt;&lt;br&gt;"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="working.kicad_sch"/>
-      <property name="ki_description" value="[electronic_switch_slide_2d54_header_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2d54_header_single_pole_double_throw/working)&lt;br&gt;&lt;br&gt;"/>
-      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>cc8a84ff-cdc8-48aa-a3d3-e8633f7b79f3</tstamps>
+      <tstamps>41dec989-33fc-45e3-b99d-3470ee01ead4</tstamps>
     </comp>
   </components>
   <libparts>
@@ -229,6 +277,23 @@
         <field name="Value">c6nf100_electronic_capacitor_0603_100_nano_farad</field>
         <field name="Footprint">oomlout_oomp_part_footprints:c6nf100_electronic_capacitor_0603_100_nano_farad</field>
         <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_capacitor_0603_100_nano_farad/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="oomlout_oomp_part_symbols" part="c8d65tuf220v10_electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt">
+      <description>[electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt/working)&lt;br&gt;&lt;br&gt;</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt/datasheet.pdf</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">c8d65tuf220v10_electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:c8d65tuf220v10_electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt/datasheet.pdf</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -258,6 +323,29 @@
         <pin num="8" name="___hsd2_minus" type="passive"/>
         <pin num="9" name="___hsd2_plus" type="passive"/>
         <pin num="10" name="___oe" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="oomlout_oomp_part_symbols" part="itssp8mpptps2113_electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw">
+      <description>[electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw/working)&lt;br&gt;[LCSC - C130052&lt;br&gt;](https://lcsc.com/product-detail/C130052.html)&lt;br&gt;</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw/datasheet.pdf</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">itssp8mpptps2113_electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:itssp8mpptps2113_electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="___stat" type="passive"/>
+        <pin num="2" name="___en" type="passive"/>
+        <pin num="3" name="___vsns" type="passive"/>
+        <pin num="4" name="___ilim" type="passive"/>
+        <pin num="5" name="___gnd" type="passive"/>
+        <pin num="6" name="___in2" type="passive"/>
+        <pin num="7" name="___out" type="passive"/>
+        <pin num="8" name="___in1" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="oomlout_oomp_part_symbols" part="mhm3_electronic_mounting_hole_m3">
@@ -297,6 +385,23 @@
         <field name="Value">r6o103_electronic_resistor_0603_10000_ohm</field>
         <field name="Footprint">oomlout_oomp_part_footprints:r6o103_electronic_resistor_0603_10000_ohm</field>
         <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_resistor_0603_10000_ohm/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="oomlout_oomp_part_symbols" part="r6o271_electronic_resistor_0603_270_ohm">
+      <description>[electronic_resistor_0603_270_ohm](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_resistor_0603_270_ohm/working)&lt;br&gt;&lt;br&gt;[Uniroyal - 0603WAJ0271T5E- not in jlc basic parts]()[Uniroyal - 0603WAF2700T5E- jlc basic part]()[Yageo - RC0603JR-07270RL- available everywhere](https://www.yageo.com/en/Chart/Download/pdf/RC0603JR-07270RL)</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_resistor_0603_270_ohm/datasheet.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">r6o271_electronic_resistor_0603_270_ohm</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:r6o271_electronic_resistor_0603_270_ohm</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_resistor_0603_270_ohm/datasheet.pdf</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -344,14 +449,14 @@
         <pin num="6" name="Shield" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="oomlout_oomp_part_symbols" part="sws2880_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw">
-      <description>[electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw/working)&lt;br&gt;&lt;br&gt;</description>
-      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw/datasheet.pdf</docs>
+    <libpart lib="oomlout_oomp_part_symbols" part="sws2880s_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw">
+      <description>[electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw/working)&lt;br&gt;&lt;br&gt;</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw/datasheet.pdf</docs>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">sws2880_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw</field>
-        <field name="Footprint">oomlout_oomp_part_footprints:sws2880_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw</field>
-        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw/datasheet.pdf</field>
+        <field name="Value">sws2880s_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:sws2880s_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw/datasheet.pdf</field>
       </fields>
       <pins>
         <pin num="1" name="A" type="passive"/>
@@ -359,14 +464,14 @@
         <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="oomlout_oomp_part_symbols" part="swsi1h_electronic_switch_slide_2d54_header_single_pole_double_throw">
-      <description>[electronic_switch_slide_2d54_header_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2d54_header_single_pole_double_throw/working)&lt;br&gt;&lt;br&gt;</description>
-      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_switch_slide_2d54_header_single_pole_double_throw/datasheet.pdf</docs>
+    <libpart lib="oomlout_oomp_part_symbols" part="swsi1hs_electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw">
+      <description>[electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw/working)&lt;br&gt;&lt;br&gt;</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw/datasheet.pdf</docs>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">swsi1h_electronic_switch_slide_2d54_header_single_pole_double_throw</field>
-        <field name="Footprint">oomlout_oomp_part_footprints:swsi1h_electronic_switch_slide_2d54_header_single_pole_double_throw</field>
-        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_switch_slide_2d54_header_single_pole_double_throw/datasheet.pdf</field>
+        <field name="Value">swsi1hs_electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:swsi1hs_electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw/datasheet.pdf</field>
       </fields>
       <pins>
         <pin num="1" name="A" type="passive"/>
@@ -379,55 +484,70 @@
   <nets>
     <net code="1" name="+5V">
       <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="CON1" pin="1" pinfunction="VBUS" pintype="power_out"/>
-      <node ref="CON2" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
       <node ref="CON3" pin="1" pinfunction="VBUS" pintype="power_in"/>
       <node ref="IC1" pin="1" pinfunction="___v_plus" pintype="passive"/>
-      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
-      <node ref="SW2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="IC2" pin="7" pinfunction="___out" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="B" pintype="passive"/>
     </net>
-    <net code="2" name="/select">
+    <net code="2" name="/5v_in_1_zz">
+      <node ref="CON1" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="IC2" pin="3" pinfunction="___vsns" pintype="passive"/>
+      <node ref="IC2" pin="8" pinfunction="___in1" pintype="passive"/>
+    </net>
+    <net code="3" name="/5v_in_2_zz">
+      <node ref="CON2" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="IC2" pin="6" pinfunction="___in2" pintype="passive"/>
+    </net>
+    <net code="4" name="/select">
       <node ref="IC1" pin="2" pinfunction="___s" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="SW2" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="3" name="/slide_switch_out_2">
-      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
-      <node ref="SW2" pin="3" pinfunction="C" pintype="passive"/>
+    <net code="5" name="/slide_switch_out_2">
+      <node ref="J1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="C" pintype="passive"/>
     </net>
-    <net code="4" name="/usb_id_secondary_1">
-      <node ref="CON1" pin="4" pinfunction="ID" pintype="passive"/>
+    <net code="6" name="/status_zz">
+      <node ref="IC2" pin="1" pinfunction="___stat" pintype="passive"/>
     </net>
-    <net code="5" name="/usb_id_secondary_2">
+    <net code="7" name="/usb_id_secondary_1">
       <node ref="CON2" pin="4" pinfunction="ID" pintype="passive"/>
     </net>
-    <net code="6" name="/usb_negative_main">
+    <net code="8" name="/usb_id_secondary_2">
+      <node ref="CON1" pin="4" pinfunction="ID" pintype="passive"/>
+    </net>
+    <net code="9" name="/usb_negative_main">
       <node ref="CON3" pin="2" pinfunction="D-" pintype="bidirectional"/>
       <node ref="IC1" pin="4" pinfunction="___d_minus" pintype="passive"/>
     </net>
-    <net code="7" name="/usb_negative_secondary_1">
-      <node ref="CON1" pin="2" pinfunction="D-" pintype="bidirectional"/>
+    <net code="10" name="/usb_negative_secondary_1">
+      <node ref="CON2" pin="2" pinfunction="D-" pintype="bidirectional"/>
       <node ref="IC1" pin="6" pinfunction="___hsd1_minus" pintype="passive"/>
     </net>
-    <net code="8" name="/usb_negative_secondary_2">
-      <node ref="CON2" pin="2" pinfunction="D-" pintype="bidirectional"/>
+    <net code="11" name="/usb_negative_secondary_2">
+      <node ref="CON1" pin="2" pinfunction="D-" pintype="bidirectional"/>
       <node ref="IC1" pin="8" pinfunction="___hsd2_minus" pintype="passive"/>
     </net>
-    <net code="9" name="/usb_positive_main">
+    <net code="12" name="/usb_positive_main">
       <node ref="CON3" pin="3" pinfunction="D+" pintype="bidirectional"/>
       <node ref="IC1" pin="3" pinfunction="___d_plus" pintype="passive"/>
     </net>
-    <net code="10" name="/usb_positive_secondary_1">
-      <node ref="CON1" pin="3" pinfunction="D+" pintype="bidirectional"/>
+    <net code="13" name="/usb_positive_secondary_1">
+      <node ref="CON2" pin="3" pinfunction="D+" pintype="bidirectional"/>
       <node ref="IC1" pin="7" pinfunction="___hsd1_plus" pintype="passive"/>
     </net>
-    <net code="11" name="/usb_positive_secondary_2">
-      <node ref="CON2" pin="3" pinfunction="D+" pintype="bidirectional"/>
+    <net code="14" name="/usb_positive_secondary_2">
+      <node ref="CON1" pin="3" pinfunction="D+" pintype="bidirectional"/>
       <node ref="IC1" pin="9" pinfunction="___hsd2_plus" pintype="passive"/>
     </net>
-    <net code="12" name="GND">
+    <net code="15" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
       <node ref="CON1" pin="5" pinfunction="GND" pintype="power_out"/>
       <node ref="CON1" pin="6" pinfunction="Shield" pintype="passive"/>
       <node ref="CON2" pin="5" pinfunction="GND" pintype="power_out"/>
@@ -435,12 +555,19 @@
       <node ref="CON3" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="CON3" pin="5" pinfunction="Shield" pintype="passive"/>
       <node ref="IC1" pin="5" pinfunction="___gnd" pintype="passive"/>
+      <node ref="IC2" pin="2" pinfunction="___en" pintype="passive"/>
+      <node ref="IC2" pin="5" pinfunction="___gnd" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
     </net>
-    <net code="13" name="Net-(IC1-___oe)">
+    <net code="16" name="Net-(IC1-___oe)">
       <node ref="IC1" pin="10" pinfunction="___oe" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(IC2-___ilim)">
+      <node ref="IC2" pin="4" pinfunction="___ilim" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
     </net>
   </nets>
 </export>
