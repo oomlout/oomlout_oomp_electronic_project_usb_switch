@@ -1,15 +1,19 @@
-### Footprint positions - created on Wed Sep 13 11:11:53 2023 ###
+### Footprint positions - created on Sat Sep 16 14:30:30 2023 ###
 ### Printed by KiCad version 7.0.6
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref     Val                  Package                                                                                                            PosX       PosY       Rot  Side
 C1        c6nf100              c6nf100_electronic_capacitor_0603_100_nano_farad                                                                 3.0000     1.7250  -90.0000  top
+C2        c6nf100              c6nf100_electronic_capacitor_0603_100_nano_farad                                                                -9.0000    -9.5000    0.0000  top
+C3        c8d65tuf220v10       c8d65tuf220v10_electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt              -7.5500    -4.0000    0.0000  top
 CON1      scumcsm              scumcsm_electronic_socket_usb_micro_surface_mount                                                              -21.1100     3.1750  -90.0000  top
 CON2      scumcsm              scumcsm_electronic_socket_usb_micro_surface_mount                                                              -21.1100   -11.8250  -90.0000  top
 CON3      scuath               scuath_electronic_socket_usb_a_through_hole                                                                     12.7000    -5.7300   90.0000  top
 IC1       imsp10mpump21rs2227  imsp10mpump21rs2227_electronic_ic_msop_10_multiplexer_usb_multiplexer_two_to_one_jiangsu_runic_tech_rs2227xn     0.0000     0.0000  -90.0000  top
+IC2       itssp8mpptps2113     itssp8mpptps2113_electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw              -15.0000    -4.5000  -90.0000  top
+J1        sws2880s             sws2880s_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw                   0.0000   -19.1700    0.0000  top
+J2        swsi1hs              swsi1hs_electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw                               0.4600    -7.5000   90.0000  top
 R1        r6o103               r6o103_electronic_resistor_0603_10000_ohm                                                                        2.0000    -4.0000    0.0000  top
 R2        r6o103               r6o103_electronic_resistor_0603_10000_ohm                                                                        2.1750     4.5000    0.0000  top
-SW1       sws2880              sws2880_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw                                    -0.2500   -19.9300    0.0000  top
-SW2       swsi1h               swsi1h_electronic_switch_slide_2d54_header_single_pole_double_throw                                              0.5000    -7.5000   90.0000  top
+R3        r6o271               r6o271_electronic_resistor_0603_270_ohm                                                                        -15.5000     0.5000    0.0000  top
 ## End

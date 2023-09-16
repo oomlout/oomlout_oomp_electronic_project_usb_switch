@@ -1,5 +1,15 @@
 bom:
 - Id: '1'
+  Designator: J2
+  Footprint: swsi1hs_electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw
+  Quantity: '1'
+  Designation: swsi1hs
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '2'
   Designator: CON3
   Footprint: scuath_electronic_socket_usb_a_through_hole
   Quantity: '1'
@@ -9,7 +19,17 @@ bom:
   : ''
   null:
   - ''
-- Id: '2'
+- Id: '3'
+  Designator: R3
+  Footprint: r6o271_electronic_resistor_0603_270_ohm
+  Quantity: '1'
+  Designation: r6o271
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '4'
   Designator: H7,H3,H4,H6
   Footprint: mhm3_electronic_mounting_hole_m3
   Quantity: '4'
@@ -19,17 +39,17 @@ bom:
   : ''
   null:
   - ''
-- Id: '3'
-  Designator: C1
+- Id: '5'
+  Designator: C1,C2
   Footprint: c6nf100_electronic_capacitor_0603_100_nano_farad
-  Quantity: '1'
+  Quantity: '2'
   Designation: c6nf100
   Supplier and ref: ''
   ? ''
   : ''
   null:
   - ''
-- Id: '4'
+- Id: '6'
   Designator: IC1
   Footprint: imsp10mpump21rs2227_electronic_ic_msop_10_multiplexer_usb_multiplexer_two_to_one_jiangsu_runic_tech_rs2227xn
   Quantity: '1'
@@ -39,7 +59,7 @@ bom:
   : ''
   null:
   - ''
-- Id: '5'
+- Id: '7'
   Designator: H1,H5,H8
   Footprint: mhm6_electronic_mounting_hole_m6
   Quantity: '3'
@@ -49,7 +69,17 @@ bom:
   : ''
   null:
   - ''
-- Id: '6'
+- Id: '8'
+  Designator: IC2
+  Footprint: itssp8mpptps2113_electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw
+  Quantity: '1'
+  Designation: itssp8mpptps2113
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '9'
   Designator: R1,R2
   Footprint: r6o103_electronic_resistor_0603_10000_ohm
   Quantity: '2'
@@ -59,17 +89,7 @@ bom:
   : ''
   null:
   - ''
-- Id: '7'
-  Designator: SW2
-  Footprint: swsi1h_electronic_switch_slide_2d54_header_single_pole_double_throw
-  Quantity: '1'
-  Designation: swsi1h
-  Supplier and ref: ''
-  ? ''
-  : ''
-  null:
-  - ''
-- Id: '8'
+- Id: '10'
   Designator: CON1,CON2
   Footprint: scumcsm_electronic_socket_usb_micro_surface_mount
   Quantity: '2'
@@ -79,28 +99,41 @@ bom:
   : ''
   null:
   - ''
-- Id: '9'
-  Designator: SW1
-  Footprint: sws2880_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw
+- Id: '11'
+  Designator: J1
+  Footprint: sws2880s_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw
   Quantity: '1'
-  Designation: sws2880
+  Designation: sws2880s
+  Supplier and ref: ''
+  ? ''
+  : ''
+  null:
+  - ''
+- Id: '12'
+  Designator: C3
+  Footprint: c8d65tuf220v10_electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt
+  Quantity: '1'
+  Designation: c8d65tuf220v10
   Supplier and ref: ''
   ? ''
   : ''
   null:
   - ''
 bom_markdown: "| Id | Designator | Footprint | Quantity | Designation | Supplier and\
-  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | CON3\
-  \ | scuath_electronic_socket_usb_a_through_hole | 1 | scuath |  |  | [''] | \n|\
-  \ 2 | H7,H3,H4,H6 | mhm3_electronic_mounting_hole_m3 | 4 | mhm3 |  |  | [''] | \n\
-  | 3 | C1 | c6nf100_electronic_capacitor_0603_100_nano_farad | 1 | c6nf100 |  | \
-  \ | [''] | \n| 4 | IC1 | imsp10mpump21rs2227_electronic_ic_msop_10_multiplexer_usb_multiplexer_two_to_one_jiangsu_runic_tech_rs2227xn\
-  \ | 1 | imsp10mpump21rs2227 |  |  | [''] | \n| 5 | H1,H5,H8 | mhm6_electronic_mounting_hole_m6\
-  \ | 3 | mhm6 |  |  | [''] | \n| 6 | R1,R2 | r6o103_electronic_resistor_0603_10000_ohm\
-  \ | 2 | r6o103 |  |  | [''] | \n| 7 | SW2 | swsi1h_electronic_switch_slide_2d54_header_single_pole_double_throw\
-  \ | 1 | swsi1h |  |  | [''] | \n| 8 | CON1,CON2 | scumcsm_electronic_socket_usb_micro_surface_mount\
-  \ | 2 | scumcsm |  |  | [''] | \n| 9 | SW1 | sws2880_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw\
-  \ | 1 | sws2880 |  |  | [''] | \n"
+  \ ref |  | None | \n| --- | --- | --- | --- | --- | --- | --- | --- | \n| 1 | J2\
+  \ | swsi1hs_electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw\
+  \ | 1 | swsi1hs |  |  | [''] | \n| 2 | CON3 | scuath_electronic_socket_usb_a_through_hole\
+  \ | 1 | scuath |  |  | [''] | \n| 3 | R3 | r6o271_electronic_resistor_0603_270_ohm\
+  \ | 1 | r6o271 |  |  | [''] | \n| 4 | H7,H3,H4,H6 | mhm3_electronic_mounting_hole_m3\
+  \ | 4 | mhm3 |  |  | [''] | \n| 5 | C1,C2 | c6nf100_electronic_capacitor_0603_100_nano_farad\
+  \ | 2 | c6nf100 |  |  | [''] | \n| 6 | IC1 | imsp10mpump21rs2227_electronic_ic_msop_10_multiplexer_usb_multiplexer_two_to_one_jiangsu_runic_tech_rs2227xn\
+  \ | 1 | imsp10mpump21rs2227 |  |  | [''] | \n| 7 | H1,H5,H8 | mhm6_electronic_mounting_hole_m6\
+  \ | 3 | mhm6 |  |  | [''] | \n| 8 | IC2 | itssp8mpptps2113_electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw\
+  \ | 1 | itssp8mpptps2113 |  |  | [''] | \n| 9 | R1,R2 | r6o103_electronic_resistor_0603_10000_ohm\
+  \ | 2 | r6o103 |  |  | [''] | \n| 10 | CON1,CON2 | scumcsm_electronic_socket_usb_micro_surface_mount\
+  \ | 2 | scumcsm |  |  | [''] | \n| 11 | J1 | sws2880s_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw\
+  \ | 1 | sws2880s |  |  | [''] | \n| 12 | C3 | c8d65tuf220v10_electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt\
+  \ | 1 | c8d65tuf220v10 |  |  | [''] | \n"
 bom_schematic:
 - Cmp name: c6nf100_electronic_capacitor_0603_100_nano_farad
   DNP: ''
@@ -227,6 +260,20 @@ position_top:
   Rot: -90.0
   Side: top
   Val: c6nf100
+- '# Ref': C2
+  Package: c6nf100_electronic_capacitor_0603_100_nano_farad
+  PosX: -9.0
+  PosY: -9.5
+  Rot: 0.0
+  Side: top
+  Val: c6nf100
+- '# Ref': C3
+  Package: c8d65tuf220v10_electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt
+  PosX: -7.55
+  PosY: -4.0
+  Rot: 0.0
+  Side: top
+  Val: c8d65tuf220v10
 - '# Ref': CON1
   Package: scumcsm_electronic_socket_usb_micro_surface_mount
   PosX: -21.11
@@ -255,6 +302,27 @@ position_top:
   Rot: -90.0
   Side: top
   Val: imsp10mpump21rs2227
+- '# Ref': IC2
+  Package: itssp8mpptps2113_electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw
+  PosX: -15.0
+  PosY: -4.5
+  Rot: -90.0
+  Side: top
+  Val: itssp8mpptps2113
+- '# Ref': J1
+  Package: sws2880s_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw
+  PosX: 0.0
+  PosY: -19.17
+  Rot: 0.0
+  Side: top
+  Val: sws2880s
+- '# Ref': J2
+  Package: swsi1hs_electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw
+  PosX: 0.46
+  PosY: -7.5
+  Rot: 90.0
+  Side: top
+  Val: swsi1hs
 - '# Ref': R1
   Package: r6o103_electronic_resistor_0603_10000_ohm
   PosX: 2.0
@@ -269,28 +337,25 @@ position_top:
   Rot: 0.0
   Side: top
   Val: r6o103
-- '# Ref': SW1
-  Package: sws2880_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw
-  PosX: -0.25
-  PosY: -19.93
+- '# Ref': R3
+  Package: r6o271_electronic_resistor_0603_270_ohm
+  PosX: -15.5
+  PosY: 0.5
   Rot: 0.0
   Side: top
-  Val: sws2880
-- '# Ref': SW2
-  Package: swsi1h_electronic_switch_slide_2d54_header_single_pole_double_throw
-  PosX: 0.5
-  PosY: -7.5
-  Rot: 90.0
-  Side: top
-  Val: swsi1h
+  Val: r6o271
 position_top_markdown: "| # Ref | Val | Package | PosX | PosY | Rot | Side | \n| ---\
   \ | --- | --- | --- | --- | --- | --- | \n| C1 | c6nf100 | c6nf100_electronic_capacitor_0603_100_nano_farad\
-  \ | 3.0 | 1.725 | -90.0 | top | \n| CON1 | scumcsm | scumcsm_electronic_socket_usb_micro_surface_mount\
+  \ | 3.0 | 1.725 | -90.0 | top | \n| C2 | c6nf100 | c6nf100_electronic_capacitor_0603_100_nano_farad\
+  \ | -9.0 | -9.5 | 0.0 | top | \n| C3 | c8d65tuf220v10 | c8d65tuf220v10_electronic_capacitor_8_mm_diameter_6_5_mm_tall_electrolytic_220_micro_farad_10_volt\
+  \ | -7.55 | -4.0 | 0.0 | top | \n| CON1 | scumcsm | scumcsm_electronic_socket_usb_micro_surface_mount\
   \ | -21.11 | 3.175 | -90.0 | top | \n| CON2 | scumcsm | scumcsm_electronic_socket_usb_micro_surface_mount\
   \ | -21.11 | -11.825 | -90.0 | top | \n| CON3 | scuath | scuath_electronic_socket_usb_a_through_hole\
   \ | 12.7 | -5.73 | 90.0 | top | \n| IC1 | imsp10mpump21rs2227 | imsp10mpump21rs2227_electronic_ic_msop_10_multiplexer_usb_multiplexer_two_to_one_jiangsu_runic_tech_rs2227xn\
-  \ | 0.0 | 0.0 | -90.0 | top | \n| R1 | r6o103 | r6o103_electronic_resistor_0603_10000_ohm\
+  \ | 0.0 | 0.0 | -90.0 | top | \n| IC2 | itssp8mpptps2113 | itssp8mpptps2113_electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw\
+  \ | -15.0 | -4.5 | -90.0 | top | \n| J1 | sws2880s | sws2880s_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_mm_surface_mount_single_pole_double_throw\
+  \ | 0.0 | -19.17 | 0.0 | top | \n| J2 | swsi1hs | swsi1hs_electronic_switch_slide_2d54_header_surface_mount_single_pole_double_throw\
+  \ | 0.46 | -7.5 | 90.0 | top | \n| R1 | r6o103 | r6o103_electronic_resistor_0603_10000_ohm\
   \ | 2.0 | -4.0 | 0.0 | top | \n| R2 | r6o103 | r6o103_electronic_resistor_0603_10000_ohm\
-  \ | 2.175 | 4.5 | 0.0 | top | \n| SW1 | sws2880 | sws2880_electronic_switch_slide_2_8_mm_x_8_mm_x_1_4_single_pole_double_throw\
-  \ | -0.25 | -19.93 | 0.0 | top | \n| SW2 | swsi1h | swsi1h_electronic_switch_slide_2d54_header_single_pole_double_throw\
-  \ | 0.5 | -7.5 | 90.0 | top | \n"
+  \ | 2.175 | 4.5 | 0.0 | top | \n| R3 | r6o271 | r6o271_electronic_resistor_0603_270_ohm\
+  \ | -15.5 | 0.5 | 0.0 | top | \n"
