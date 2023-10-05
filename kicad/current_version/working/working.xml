@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\GH\oomlout_oomp_electronic_project_usb_switch\kicad\current_version\working\working.kicad_sch</source>
-    <date>17/09/2023 18:01:22</date>
+    <date>05/10/2023 11:24:46</date>
     <tool>Eeschema 7.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -535,7 +535,11 @@
       </pins>
     </libpart>
   </libparts>
-  <libraries/>
+  <libraries>
+    <library logical="oomlout_oomp_part_symbols">
+      <uri>C:/GH/oomlout_oomp_part_kicad_symbols/oomlout_oomp_part_symbols.kicad_sym</uri>
+    </library>
+  </libraries>
   <nets>
     <net code="1" name="+5V">
       <node ref="C1" pin="1" pintype="passive"/>
